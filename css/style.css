@@ -117,3 +117,15 @@ img {
 .bl_news .el_pageTitle {
     text-align: center;
 }
+
+/* フッター */
+.ly_footer {
+    background-color: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+.ly_footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
