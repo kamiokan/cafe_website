@@ -129,3 +129,19 @@ img {
     color: #fff;
     font-size: 0.875rem;
 }
+
+/* 記事部分 */
+.ly_mainArea {
+    width: 74%;
+}
+
+/* サイドバー */
+.ly_sideBar {
+    width: 22%;
+}
+
+.ly_newsContents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
