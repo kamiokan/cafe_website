@@ -63,7 +63,6 @@ img {
 .ly_homeContent p {
     font-size: 1.125rem;
     margin: 10px 0 42px;
-    text-shadow:1px 1px 3px #fff;
 }
 
 /* 見出し */
@@ -71,7 +70,6 @@ img {
     font-size: 5rem;
     font-family: 'Philosopher', serif;
     color: #333;
-    text-shadow:1px 1px 3px #fff;
 }
 
 /* ボタン */
@@ -100,4 +98,8 @@ img {
 
 .bl_home .el_pageTitle {
     text-transform: none;
+}
+
+.hp_whiteTextShadow {
+    text-shadow: 1px 1px 3px #fff;
 }
