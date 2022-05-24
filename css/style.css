@@ -146,24 +146,24 @@ img {
     margin-bottom: 50px;
 }
 
-.postInfo {
+.bl_postInfo_header {
     position: relative;
     padding-top: 4px;
     margin-bottom: 40px;
 }
 
-.postInfo_title {
+.bl_postInfo_title {
     font-family: "Yu Mincho", "YuMincho", serif;
     font-size: 2rem;
     font-weight: normal;
 }
 
-.postInfo_title,
-.postInfo_cat {
+.bl_postInfo_title,
+.bl_postInfo_cat {
     margin-left: 120px;
 }
 
-.postInfo_date {
+.bl_postInfo_date {
     background-color: #0bd;
     border-radius: 50%;
     color: #fff;
@@ -176,7 +176,7 @@ img {
     padding-top: 10px;
 }
 
-.postInfo_date span {
+.bl_postInfo_date span {
     font-size: 1rem;
     border-top: 1px rgba(255, 255, 255, .5) solid;
     padding-top: 6px;
@@ -185,10 +185,41 @@ img {
     margin: 0 auto;
 }
 
-.postInfo_img {
+.bl_postInfo_img {
     margin-bottom: 20px;
 }
 
-.postInfo_body {
+.bl_postInfo_body {
     margin-bottom: 1rem;
+}
+
+/*　サイドバー　*/
+.bl_sub_title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+.bl_sub_menu {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.bl_sub_menu li {
+    border-bottom: 1px #ddd solid;
+}
+
+.bl_sub_menu a {
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.bl_sub_menu a:hover {
+    color: #0bd;
+}
+
+.bl_sub_description {
+    padding: 12px 10px;
 }
