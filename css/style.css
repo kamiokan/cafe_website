@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-/* 共通部分 */
+/* 共通部分
+------------------------*/
 html {
     font-size: 100%;
 }
@@ -222,4 +223,79 @@ img {
 
 .bl_sub_description {
     padding: 12px 10px;
+}
+
+/*　モバイル版　
+------------------------*/
+@media (max-width: 600px) {
+    .el_pageTitle {
+        font-size: 2.5rem;
+    }
+
+    /* HEADER */
+    .bl_mainNav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .bl_mainNav li {
+        margin: 0 20px;
+    }
+
+    /* HOME */
+    .ly_homeContent {
+        margin-top: 20px;
+    }
+
+    .ly_pageHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* NEWS */
+    .ly_newsContents {
+        flex-direction: column;
+    }
+
+    .ly_mainArea,
+    .ly_sideBar {
+        width: 100%;
+    }
+
+    .bl_news .el_pageTitle {
+        margin-top: 30px;
+    }
+
+    .ly_sideBar {
+        margin-top: 60px;
+    }
+
+    .bl_postInfo_header {
+        margin-bottom: 30px;
+    }
+
+    .bl_postInfo_date {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+    }
+
+    .bl_postInfo_date span {
+        font-size: 0.875rem;
+        padding-top: 2px;
+    }
+
+    .bl_postInfo_title {
+        font-size: 1.375rem;
+    }
+
+    .bl_postInfo_cat {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+
+    .bl_postInfo_title,
+    .bl_postInfo_cat {
+        margin-left: 80px;
+    }
 }
