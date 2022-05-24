@@ -141,7 +141,7 @@ img {
     width: 22%;
 }
 
-.ly_newsContents {
+.ly_Contents {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -225,6 +225,52 @@ img {
     padding: 12px 10px;
 }
 
+/* SEASON MENU
+------------------------*/
+.bl_season {
+    background-image: url(../images/seasonBg.jpg);
+    background-position: center;
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+.bl_season .el_pageTitle {
+    text-align: center;
+}
+
+.ly_mainArea.with_sideAd {
+    width: 60%;
+    order: 2;
+}
+
+.ly_sideBar.with_sideAd {
+    width: 22%;
+    order: 3;
+}
+
+.ly_sideAd {
+    order: 1;
+}
+
+/* デスクトップのみ表示とスマホのみ表示 */
+.lg_only {
+    display: block !important;
+}
+
+.sp_only {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .lg_only {
+        display: none !important;
+    }
+
+    .sp_only {
+        display: block !important;
+    }
+}
+
 /*　モバイル版　
 ------------------------*/
 @media (max-width: 600px) {
@@ -253,7 +299,7 @@ img {
     }
 
     /* NEWS */
-    .ly_newsContents {
+    .ly_Contents {
         flex-direction: column;
     }
 
@@ -297,5 +343,19 @@ img {
     .bl_postInfo_title,
     .bl_postInfo_cat {
         margin-left: 80px;
+    }
+
+    /* SEASON MENU */
+    .bl_season .el_pageTitle {
+        margin-top: 30px;
+    }
+
+    .ly_mainArea.with_sideAd,
+    .ly_sideBar.with_sideAd {
+        width: 100%;
+    }
+
+    .ly_sideAd {
+        order: 3;
     }
 }
