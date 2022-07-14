@@ -252,6 +252,35 @@ img {
     order: 1;
 }
 
+/* NEWS
+------------------------*/
+.bl_menu {
+    background-image: url(../images/menuBg.jpeg);
+    background-position: center;
+    min-height: 100vh;
+    margin-bottom: 40px;
+}
+
+.bl_menu .el_pageTitle {
+    text-align: center;
+}
+
+.bl_menuSubTitle {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 212, 0.5);
+    font-size: 1.125rem;
+}
+
+.bl_menu_contentGrid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
 /* デスクトップのみ表示とスマホのみ表示 */
 .lg_only {
     display: block !important;
