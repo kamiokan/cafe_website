@@ -281,6 +281,78 @@ img {
     margin-bottom: 50px;
 }
 
+/* CONTACT
+------------------------*/
+.bl_contact {
+    background-image: url(../images/contactBg.jpeg);
+    background-position: center;
+    min-height: 100vh;
+    margin-bottom: 40px;
+}
+
+.bl_contact_form div {
+    margin-bottom: 14px;
+}
+
+.bl_contact_form label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.bl_contact_form input[type="text"],
+.bl_contact_form input[type="email"],
+.bl_contact_form textarea {
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.bl_contact_form input[type="text"],
+.bl_contact_form input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+.bl_contact_form textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+.bl_contact_form input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.bl_contactLocation {
+    padding: 4% 0;
+}
+
+.bl_contactLocation.ly_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bl_contactLocation_info {
+    width: 22%;
+}
+
+.bl_contactLocation_info p {
+    padding: 12px 10px;
+}
+
+.bl_contactLocation_map {
+    width: 74%;
+}
+
+.bl_contactLocation_map iframe {
+    width: 100%;
+}
+
 /* デスクトップのみ表示とスマホのみ表示 */
 .lg_only {
     display: block !important;
@@ -386,5 +458,26 @@ img {
 
     .ly_sideAd {
         order: 3;
+    }
+
+    /* CONTACT
+    ------------------------*/
+    .bl_contact .el_pageTitle {
+        margin-top: 40px;
+    }
+
+    .bl_contact_form input[type="text"],
+    .bl_contact_form input[type="email"],
+    .bl_contact_form textarea {
+        max-width: 100%;
+    }
+
+    .bl_contactLocation.ly_wrapper {
+        flex-direction: column;
+    }
+
+    .bl_contactLocation_info,
+    .bl_contactLocation_map {
+        width: 100%;
     }
 }
