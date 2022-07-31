@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* NEWS
+------------------------*/
+.bl_news {
+    background-image: url(../images/newsBg.jpg);
+    background-position: center;
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+.bl_news .el_pageTitle {
+    text-align: center;
+}
+
+/*　モバイル版　
+------------------------*/
+@media (max-width: 600px) {
+    /* NEWS */
+
+}

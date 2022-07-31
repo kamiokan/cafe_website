@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* HOME
+------------------------*/
+.ly_homeContent {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ly_homeContent p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+.bl_home {
+    background-image: url(../images/mainBg.jpg);
+    min-height: 100vh;
+}
+
+.bl_home .el_pageTitle {
+    text-transform: none;
+}
+
+/*　モバイル版　
+------------------------*/
+@media (max-width: 600px) {
+    /* HOME */
+    .ly_homeContent {
+        margin-top: 20px;
+    }
+
+    .ly_pageHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+}

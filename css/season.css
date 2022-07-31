@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* SEASON MENU
+------------------------*/
+.bl_season {
+    background-image: url(../images/seasonBg.jpg);
+    background-position: center;
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+.bl_season .el_pageTitle {
+    text-align: center;
+}
+
+/*　モバイル版　
+------------------------*/
+@media (max-width: 600px) {
+    /* SEASON MENU */
+    .bl_season .el_pageTitle {
+        margin-top: 30px;
+    }
+}
